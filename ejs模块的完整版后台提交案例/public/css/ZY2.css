@@ -1,0 +1,46 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;} 
+
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+ 
+.kaitou{height: 54px;background: rgba(50,50,50);}
+.framework{width: 1200px; margin: 0 auto; height: auto;}
+.logo1{width: 30px;height: 30px;opacity: .8;padding: 11px 0px;float: left;} /*opacity: .8; 属性得透明度*/
+.shangchen{/*display: inline-block;*//*float: left;*/}
+.shangchen li a{float: left;line-height: 54px; margin-left: 60px;color: #fff;font-size:16px;opacity: .8}
+.shangchen li a{text-decoration: none}
+.shangchen li a.item{position: relative;transition: all 400ms;}
+.shangchen li a.item:after{position: absolute;left: -5px; top: 41px;content: '';height: 1px;background: #fff;/*opacity: 0;*/
+                      width: 40px;display: block;/*transition: 344ms ease-out;*/display:none;}
+ .shangchen li:hover a.item{display: block;}                     
+.yonghu{width: 58px; height: 54px;float: right;display: block;}
+.yonghu img{width: 20px;height: 20px;padding: 16px 0px;}
+.zhongjian{width:100%; height: 880px;background: url(../img/20180911055741_shouye.jpg) no-repeat;background-position:center center}
+.footer{height: 350px; width: 100%;}
+.footer li{height: 350px; width: 33.33%; float: left}
+.backgroung1{background: url(../img/201706221498096661.jpg) no-repeat; background-size:190% 100%; background-position: center center; }
+.backgroung2{background: url(../img/201706221498096692.jpg) no-repeat; background-size:190% 100%;background-position: center center;}
+.backgroung3{background: url(../img/20170622149809673.jpg) no-repeat; background-size:190% 100%;background-position: center center;}
+.jiewei{width: 100%; height:240px;padding-top: 63px;}
+.jiewei li{float: left;width: 190px;}
+.jiewei li h2{font-size: 16px;color: #484848;line-height: 20px;margin-bottom: 10px;}
+.jiewei li p span{display: block;line-height: 30px;}
+.jiewei li p span a{text-decoration: none;color: #666;}       /*text-decoration: none;  去除下划线
+.jiewei li p span a:hover{color: rgb(30,144,255)}   /*鼠标经过时得样式改变*/
+.tel{font-size: 18px;color: #000;padding: 8px 0 20px 0;}
+.kefu{width: 140px; height: 30px;border: 1px solid #A9A9A9;border-radius: 5px;position: relative;display: inline-block;}          /*border-radius: 10px;   设置圆角*/
+.img2{background:url(../img/online.png);width: 16px;height: 16px;display: inline-block;margin:7px 21px;}
+.zaixian{display: inline-block;position: absolute;left: 45px; top:5px;}
+.last a:hover{color: rgb(30,144,255);}
+.banquan{height: 67px; border-top: 1px solid #000000;line-height: 67px; text-align: center;}
